@@ -98,7 +98,7 @@ var draw = (function() {
         } else if( shape==='circle' ) {
           this.drawCircle();
         } else if( shape==='triangle') {
-        this.drawTriangle();
+        this.drawTri();
         } else {
           alert('Please choose a shape');
         }
